@@ -1,0 +1,93 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(62, 62, 173);
+  height:100vh;
+  width: 100vw;
+}
+.box{
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  box-shadow: 1px 1px 10px black;
+  padding:20px;
+}
+.box > h1{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.box .mainthing{
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+.box .maincontrolls{
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 10px;
+  padding:20px;
+}
+.box .maincontrolls h4{
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.box .maincontrolls .buttons .p1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+  margin-bottom: 5px;
+}
+.box .maincontrolls .buttons .p1 button{
+  flex:1;
+  padding:5px;
+  font-size: 14px;
+  color:#777;
+  background-color: transparent;
+  border: 1px solid #777;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.box .maincontrolls .buttons .p1 button.active{
+  color:white;
+  background-color: blue;
+}
+.working{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0 0;
+}
+#mainrange{
+  width: 100%;
+  margin-top: 5px;
+}
+.idkwhy{
+  font-size: 16px;
+  margin: 15px 0 5px;
+}
+.filpcontrolls{
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+.filpcontrolls button{
+  flex:1;
+  padding:10px;
+  background-color: transparent;
+  color:black;
+  border-radius: 5px;
+  border: 1px solid #777;
+  cursor: pointer;
+}
+.mainimg img{
+  height: 270px;
+  border-radius: 10px;
+  filter: brightness(100%) grayscale(0%) invert(0%) saturate(100%);
+}

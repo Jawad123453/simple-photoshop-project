@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="fast.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="box">
+    <h1>Easy Image Editor</h1>
+    <div class="mainthing">
+      <div class="maincontrolls">
+        <h4>Filters</h4>
+        <div class="buttons">
+          <div class="p1">
+            <button class="active">Britness</button>
+            <button>Saturation</button>
+          </div>
+          <div class="p1">
+            <button>inverse</button>
+            <button>Grayscale</button>
+          </div>
+        </div>
+        <div class="working">
+          <h5>Britness</h5>
+          <span class="covalue">100%</span>
+        </div>
+        <input type="range" id="mainrange" min="0">
+        <h1 class="idkwhy">Rotate & Filp</h1>
+        <div class="filpcontrolls">
+          <button>Right</button>
+          <button>Left</button>
+          <button>Up</button>
+          <button>Down</button>
+        </div>
+      </div>
+      <div class="mainimg">
+        <img src="123.jpg" alt="">
+      </div>
+
+    </div>
+  </div>
+  <script src="fast.js"></script>
+</body>
+</html>
